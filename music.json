@@ -1,0 +1,79 @@
+[
+    {
+      "name": "一人饮酒醉(柔情版)",
+      "audio_url": "./audios/程嘉敏 - 一人饮酒醉 (柔情版) [mqms].mp3",
+      "singer": "程嘉敏",
+      "cover": "../img/cjm.jpeg",
+      "time": "01:22"
+    },
+    {
+      "name": "Baby I'm Sorry",
+      "audio_url": "https://od.lk/s/OThfMzk4OTA2ODJf/baby.mp3",
+      "singer": "MYNAME",
+      "cover": "../img/1.png"
+    },
+    {
+      "name": "生僻字",
+      "audio_url": "./audios/陈柯宇 - 生僻字.mp3",
+      "singer": "陈柯宇",
+      "cover": "../img/cky.jpeg",
+      "time": "03:36"
+    },
+    {
+      "name": "依存症",
+      "audio_url": "./audios/东京塔子 - 依存症 [mqms2].mp3",
+      "singer": "东京塔子",
+      "cover": "../img/djdz.jpeg",
+      "time": "04:39"
+    } ,
+    {
+      "name": "恶魔的爱",
+      "audio_url": "./audios/李宏毅&李明霖 - 恶魔的爱 [mqms2].mp3",
+      "singer": "李宏毅&李明霖",
+      "cover": "../img/lml.jpeg",
+      "time": "04:12"
+    },
+    {
+      "name": "梦回还",
+      "audio_url": "./audios/呦猫UNEKO - 梦回还 [mqms2].mp3",
+      "singer": "呦猫UNEKO",
+      "cover": "https://s2.loli.net/2024/07/22/wIHFAucJKULqle2.jpg",
+      "time": "04:10"
+    },
+    {
+      "name": "勇敢爱",
+      "audio_url": "./audios/Mi2 - 勇敢爱 [mqms2].mp3.mp3",
+      "singer": "Mi2",
+      "cover": "../img/mi2.jpeg",
+      "time": "04:16"
+    },
+    {
+      "name": "当归",
+      "audio_url": "./audios/宿雨涵 - 当归.ogg",
+      "singer": "宿雨涵",
+      "cover": "../img/syh.jpeg",
+      "time": "03:54"
+    },
+    {
+      "name": "勾指起誓",
+      "audio_url": "./audios/泠鸢yousa - 勾指起誓.ogg",
+      "singer": "泠鸢yousa",
+      "cover": "../img/ly.jpg",
+      "time": "03:03"
+    },
+    {
+      "name": "散仙如烟",
+      "audio_url": "./audios/醋醋 - 散仙如烟.ogg",
+      "singer": "醋醋",
+      "cover": "../img/cucu.jpeg",
+      "time": "03:43"
+    },
+    {
+      "name": "爱情女神",
+      "audio_url": "./audios/郭美美 - 爱情女神.ogg",
+      "singer": "郭美美",
+      "cover": "../img/g.jpg",
+      "time": "03:36"
+    }
+  ]
+  

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>音乐播放器</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/player.css" />
+  </head>
+
+  <body>
+    <!-- 音乐播放器 -->
+    <div class="player-warp">
+      <!-- 歌曲信息卡片 -->
+      <div class="player-info">
+        <div class="info">
+          <div class="name">梦回还</div>
+          <div class="singer-album">呦猫UNEKO</div>
+          <!-- 进度条 -->
+          <div class="music_progress">
+            <div class="music_progress-top">
+              <span class="current-time">00:00</span>
+              <span class="time">04:16</span>
+            </div>
+            <!-- 进度条%比 -->
+            <div class="music_progress-bar">
+              <div class="music_progress-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 音乐控制器 -->
+      <div class="player-control">
+        <!-- 封面唱片 -->
+        <div class="cover">
+          <img
+            src="https://s2.loli.net/2024/07/22/wIHFAucJKULqle2.jpg"
+            alt="封面唱片"
+          />
+        </div>
+        <!-- 控制按钮 -->
+        <div class="control">
+          <!-- 上一首 -->
+          <i id="prevBtn" class="fa fa-step-backward"></i>
+          <!-- 播放暂停 -->
+          <i id="playBtn" class="fa fa-play"></i>
+          <!-- 下一首 -->
+          <i id="nextBtn" class="fa fa-step-forward"></i>
+          <!-- 音乐列表 -->
+          <i id="openModal" class="fa fa-reorder"></i>
+        </div>
+      </div>
+    </div>
+    <!-- 页面背景 -->
+    <div class="mask_bg"></div>
+
+    <!-- 模态框 -->
+    <div class="modal">
+      <!-- 模糊页面背景 -->
+      <div class="modal-box">
+        <!-- 上边 -->
+        <div class="modal-box-top">
+          <div class="modal-title">音乐列表</div>
+          <div class="modal-close">
+            <i class="fa fa-remove"></i>
+          </div>
+        </div>
+        <!-- 音乐名信息 -->
+        <div class="modal-wrapper">
+          <ul class="music-list">
+            <!-- <li>
+                            <span>梦回还</span>
+                            <span class="fa fa-play-circle  play-circle"></span>
+                        </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <audio src="./audios/呦猫UNEKO - 梦回还 [mqms2].mp3"></audio>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
